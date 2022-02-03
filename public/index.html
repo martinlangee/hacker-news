@@ -40,4 +40,17 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script>
+    // examples:
+
+    // searching stories with "React"
+    //const url = "https://hn.algolia.com/api/v1/search?query=React";
+    // searching stories with "React app", display page 3, 50 hits perpage
+    const url =
+      "https://hn.algolia.com/api/v1/search?query=React%20app&page=5&hitsPerPage=50";
+    fetch(url)
+      .then((res) => res.json())
+      .then((js) => console.log(js))
+      .catch((e) => console.log(e));
+  </script>
 </html>
