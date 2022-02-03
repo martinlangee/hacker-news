@@ -1,13 +1,11 @@
 import React from 'react';
 import NewsItem from './news-item';
 
-const NewsList = () => {
+const NewsList = (props) => {
     return <div> 
-        <NewsItem /> 
-        <NewsItem /> 
-        <NewsItem /> 
-        <NewsItem /> 
+        {props.data.map((item) => <NewsItem />  )}               
         </div>
+    
 }
 
 export default NewsList;
