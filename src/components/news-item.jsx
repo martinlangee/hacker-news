@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
-const NewsItem = () => {
-    return <div>News Item</div>
-}
+const NewsItem = ({ data }) => {
+  return <div>{data.title}</div>;
+};
 
 export default NewsItem;

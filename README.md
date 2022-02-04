@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Additionally you must install Axio component with
+
+### `npm install axio`
+
 ## Available Scripts
 
 In the project directory, you can run:
