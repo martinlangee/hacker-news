@@ -45,3 +45,11 @@
     transform: rotate(360deg);
   }
 }
+
+.news-item {
+  margin: 24px;
+  padding: 24px;
+  background-color: rgb(241, 246, 251);
+  border-radius: 32px;
+
+}
