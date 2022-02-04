@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "../App.css";
 
+
+
 const NewsItem = ({ data }) => {
+  const [trimDate, setTrimDate] = useState('');
+  
+  const trim = (e) => (e.substring(0,9))
+
   return (
   <div className="news-item">
     <h3 className="news-title">{data.title}</h3>

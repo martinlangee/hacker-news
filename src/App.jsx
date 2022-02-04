@@ -7,12 +7,11 @@ import React, { useEffect, useState } from "react";
 function App() {
   const [newsData, setNewsData] = useState(null);
 
+
   useEffect(() => {
     console.log("###################");
     //    Axios.get("http://localhost:3000/hits")
-    Axios.get(
-      "https://hn.algolia.com/api/v1/search?query=React%20app&page=5&hitsPerPage=50"
-    )
+    Axios.get("https://hn.algolia.com/api/v1/search?query=React%20app&page=5&hitsPerPage=50")
       .then((resp) => {
         console.log(resp);
         return resp.data;
@@ -24,6 +23,7 @@ function App() {
       .then((js) => setNewsData(js))
       .catch((error) => console.log(error));
   }, []);
+
 
   return (
     <div className="App">
