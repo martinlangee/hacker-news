@@ -4,7 +4,7 @@ A little (unfinished) exercise from the WBS Coding School course.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Additionally you must install Axio component with
+Install additional components with
 
 ### `npm install axio`
 
