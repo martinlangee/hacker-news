@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Hacker News
+
+A little (unfinished) exercise from the WBS Coding School course.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
